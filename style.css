@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Sarabun', sans-serif;
+	font-size: 16px;
+}
+
+header{
+	background: #456096;
+	padding: 10px 0;
+}
+
+header h1{
+	text-align: center;
+	font-size: 35px;
+}
+.success{
+	width: 400px;
+	margin: 0 auto;
+	padding: 10px;
+	background: #6ff16f;
+	color: #444343;
+	display: none;
+}
+
+.main{
+	display: block;
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+
+form > input, textarea, .main__phone input{
+	display: block;
+	width: 100%;
+	padding: 5px;
+}
+textarea{
+	height: 80px;
+}
+
+form >p{
+	margin-bottom: 20px;
+	font-size: 14px;
+	color: #f10f0c;
+	visibility: hidden;
+}
+
+.main__phone{
+	position: relative;
+}
+.main__phone select{
+	position: absolute;
+	height: 100%;
+	width: 55px;
+	background: #bdbdbd;
+	font-size: 13px;
+}
+.main__phone input{
+	padding-left: 60px;
+}
+
+.main__subscription > *{
+	margin: 30px 0;
+	display: inline-block;
+}
+
+.main__subscription label{
+	margin-left: 10px;
+}
+.main__subscription input{
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+button{
+	padding: 5px 10px;
+	background: #474846;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+.thank{
+	display: none;
+	width: 40%;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.thank h1{
+	text-align: center;
+	font-size: 35px;
+	color: grey;
+}
+
+.thank p{
+	margin: 10px 0;
+}

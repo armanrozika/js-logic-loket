@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<title>Loket</title>
+</head>
+<body>
+
+	<header>
+		<h1>Loket</h1>
+	</header>
+	<section class="success">
+		<p>sent successfully !</p>
+	</section>
+	<section  class="thank">
+		<h1>Thank You</h1>
+		<p id="emailsuccess"></p>
+		<h2>Invoice Code: <span id="invoice">93476</span></h2>
+
+	</section>
+	
+
+	<section class="main">
+		<form method="POST">
+			<input id="name" type="text" placeholder="Name (required)" name="name" required>
+			<p>min. 5 character</p>
+			<input id="email" type="text" placeholder="Email (required)" name="email" required>
+			<p>invalid email address</p>
+			<div class="main__phone">
+				<select class="select" name="country">
+				</select>
+				<input id="phone" type="text" placeholder="Phone Number (required)" name="phone" required>
+			</div>
+			<p>invalid phone number</p>
+			<textarea id="address" type="text" placeholder="Address (optional)" name="address"></textarea>
+			<p>max. 130 characters</p>
+			<div class="main__subscription">
+				<p>Subscribe to our newsletter: </p>
+				<label>Yes</label>
+				<input name="sub" type="radio" value="yes" checked>
+				<label>No</label>
+				<input name ="sub" type="radio" value="no">
+			</div>
+			
+			<button type="submit">Submit</button>
+		</form>
+	</section>
+
+	
+
+	<script src="main.js"></script>
+</body>
+</html>
